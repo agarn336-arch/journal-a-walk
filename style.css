@@ -1,0 +1,664 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: #f5f1e8;
+
+    color: #171717;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.5;
+
+}
+
+
+a {
+
+    color: #171717;
+
+    text-decoration: none;
+
+}
+
+
+
+/* =====================
+   HEADER
+===================== */
+
+header {
+
+    height: 100px;
+
+    border-bottom: 1px solid #171717;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 5%;
+
+}
+
+
+header h2 {
+
+    font-size: 22px;
+
+    letter-spacing: 2px;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+nav a {
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+}
+
+
+nav a:hover {
+
+    color: #9b4035;
+
+}
+
+
+
+/* =====================
+   HOME PAGE
+===================== */
+
+.hero {
+
+    padding: 105px 8%;
+
+}
+
+
+.location {
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 30px;
+
+}
+
+
+h1 {
+
+    font-size: 110px;
+
+    line-height: 0.85;
+
+    letter-spacing: -6px;
+
+    margin-bottom: 55px;
+
+}
+
+
+h1 span {
+
+    color: #9b4035;
+
+    font-family: Georgia, serif;
+
+    font-weight: normal;
+
+    font-style: italic;
+
+}
+
+
+.description {
+
+    width: 500px;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+
+    margin-bottom: 75px;
+
+}
+
+
+.explore {
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    border-bottom: 1px solid #171717;
+
+    padding-bottom: 5px;
+
+}
+
+
+.explore:hover {
+
+    color: #9b4035;
+
+    border-color: #9b4035;
+
+}
+
+
+
+/* =====================
+   OTHER PAGE INTRO
+===================== */
+
+.page-intro {
+
+    padding: 100px 8% 80px;
+
+    border-bottom: 1px solid #171717;
+
+}
+
+
+
+/* =====================
+   COMMUNITY
+===================== */
+
+.content-section {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 70px;
+
+    padding: 100px 8%;
+
+    border-bottom: 1px solid #171717;
+
+}
+
+
+.content-section.reverse {
+
+    flex-direction: row-reverse;
+
+}
+
+
+.content-section img {
+
+    width: 55%;
+
+    height: 400px;
+
+    object-fit: cover;
+
+}
+
+
+.text {
+
+    width: 45%;
+
+}
+
+
+.text h2 {
+
+    font-size: 55px;
+
+    color: #243b2a;
+
+    margin-bottom: 25px;
+
+}
+
+
+.text p:last-child {
+
+    max-width: 400px;
+
+}
+
+
+
+/* =====================
+   RED SECTION
+===================== */
+
+.red-section {
+
+    padding: 120px 8%;
+
+    background-color: #9b4035;
+
+    color: #f5f1e8;
+
+}
+
+
+.red-section h2 {
+
+    font-size: 75px;
+
+    line-height: 0.9;
+
+    margin-bottom: 40px;
+
+}
+
+
+.red-section h2 span {
+
+    font-family: Georgia, serif;
+
+    font-weight: normal;
+
+}
+
+
+.red-section p {
+
+    max-width: 550px;
+
+    font-size: 17px;
+
+}
+
+
+
+/* =====================
+   DAILY LIFE
+===================== */
+
+.schedule {
+
+    padding: 50px 8% 100px;
+
+}
+
+
+.time {
+
+    display: flex;
+
+    gap: 60px;
+
+    padding: 35px 0;
+
+    border-bottom: 1px solid #171717;
+
+}
+
+
+.time h2 {
+
+    width: 150px;
+
+    color: #9b4035;
+
+    font-size: 30px;
+
+}
+
+
+.time h3 {
+
+    font-size: 18px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.time p {
+
+    max-width: 500px;
+
+}
+
+
+
+/* =====================
+   VIDEO
+===================== */
+
+.video-section {
+
+    padding: 100px 8%;
+
+    background-color: #243b2a;
+
+    color: #f5f1e8;
+
+}
+
+
+.video-section h2 {
+
+    font-size: 70px;
+
+    line-height: 0.9;
+
+    margin-bottom: 50px;
+
+}
+
+
+.video-section h2 span {
+
+    font-family: Georgia, serif;
+
+    font-weight: normal;
+
+}
+
+
+video {
+
+    width: 100%;
+
+    max-height: 600px;
+
+    display: block;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* =====================
+   FINAL SECTION
+===================== */
+
+.final-section {
+
+    padding: 120px 8%;
+
+}
+
+
+.final-section h2 {
+
+    font-size: 75px;
+
+    line-height: 0.9;
+
+    margin-bottom: 40px;
+
+}
+
+
+.final-section h2 span {
+
+    color: #9b4035;
+
+    font-family: Georgia, serif;
+
+    font-weight: normal;
+
+}
+
+
+
+/* =====================
+   AROUND STUYTOWN
+===================== */
+
+.places {
+
+    padding: 50px 8% 100px;
+
+}
+
+
+.place {
+
+    padding: 50px 0;
+
+    border-bottom: 1px solid #171717;
+
+}
+
+
+.place h2 {
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.place p:last-child {
+
+    max-width: 500px;
+
+}
+
+
+.around-image {
+
+    padding: 0 8% 100px;
+
+}
+
+
+.around-image img {
+
+    width: 100%;
+
+    height: 500px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* =====================
+   FOOTER
+===================== */
+
+footer {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 30px 6%;
+
+    border-top: 1px solid #171717;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+}
+
+
+footer a:hover {
+
+    color: #9b4035;
+
+}
+
+
+
+/* =====================
+   MOBILE
+===================== */
+
+@media (max-width: 700px) {
+
+
+    header {
+
+        height: auto;
+
+        padding: 25px 6%;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+
+    }
+
+
+    nav {
+
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .hero {
+
+        padding: 70px 6%;
+
+    }
+
+
+    h1 {
+
+        font-size: 55px;
+
+        letter-spacing: -3px;
+
+    }
+
+
+    .description {
+
+        width: 100%;
+
+        font-size: 16px;
+
+    }
+
+
+    .page-intro {
+
+        padding: 70px 6%;
+
+    }
+
+
+    .content-section,
+    .content-section.reverse {
+
+        flex-direction: column;
+
+        padding: 70px 6%;
+
+    }
+
+
+    .content-section img {
+
+        width: 100%;
+
+        height: 300px;
+
+    }
+
+
+    .text {
+
+        width: 100%;
+
+    }
+
+
+    .red-section,
+    .video-section,
+    .final-section {
+
+        padding: 70px 6%;
+
+    }
+
+
+    .red-section h2,
+    .video-section h2,
+    .final-section h2 {
+
+        font-size: 50px;
+
+    }
+
+
+    .time {
+
+        gap: 20px;
+
+    }
+
+
+    .time h2 {
+
+        width: 80px;
+
+        font-size: 22px;
+
+    }
+
+
+    .around-image {
+
+        padding: 0 6% 70px;
+
+    }
+
+
+    .around-image img {
+
+        height: 300px;
+
+    }
+
+
+    footer {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+}
